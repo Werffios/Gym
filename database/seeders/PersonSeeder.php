@@ -14,6 +14,7 @@ class PersonSeeder extends Seeder
     public function run(): void
     {
         Person::class::create([
+
             'document' => '123456789',
             'date_of_birth' => '1999-01-01',
             'id_curriculum' => 1,
